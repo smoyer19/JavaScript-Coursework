@@ -1,0 +1,1 @@
+var foo = document.getElementsByTagName("p");//The variable foo would get all paragraphs by tag "p"

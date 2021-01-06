@@ -1,0 +1,1 @@
+var foo = document.getElementsByTagName("p");//Suppose you wanted to find all paragraph elements in an HTML
