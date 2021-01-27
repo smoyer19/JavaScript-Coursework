@@ -13,8 +13,8 @@
 }
 
 img {
-    object-fit: cover;
-    width: 200px;
+    object-fit: contain;
+    width: 600px;
     height: 400px;
 }
 
