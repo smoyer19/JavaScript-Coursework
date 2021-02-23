@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang= "en">
+	<head> 
+		<title> Golden Retrievers </title>
+		<meta charset= "utf-8">
+		<meta name="viewpor" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<script src="JS/one_page.js" ></script>
+	</head>
+	<body>
+	
+		<!-- Nav -->
+		<div>
+			<ul>
+				<a href="#home" id="link"><li>HOME</li></a>
+				<a href="#gallery"><li>GALLERY</li></a>
+				<a href="#contact"><li>CONTACT</li></a>
+				<a href="#video"><li>VIDEO</li></a>
+			</ul>
+		</div>
+		<!-- End Nav -->
+		
+		<!-- Home -->
+		<div id="home">
+			<h1>The Golden Dogs of Retrieving</h1>
+			<p>Golden Retrievers are great pets!</p>
+		</div>
+
+		<!-- Gallery -->
+		<section>
+		<div id= "gallery">
+			<h1> GALLERY</h1>
+			
+		<!-- Images used to open the lightbox -->
+		<div class="row">
+		<div class="column">
+	  		<img src="Golden_Timespan.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+		</div>
+		<div class="column">
+	  		<img src="Golden-Retriever.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+		</div>
+		<div class="column">
+	  		<img src="dog_puppy.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+		</div>
+  		</div>
+  
+  		<!-- The Modal/Lightbox -->
+  		<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+  
+	  <div class="mySlides">
+		<div class="numbertext">1 / 3</div>
+		<img src="Golden_Timespan.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">2 / 3</div>
+		<img src="Golden-Retriever.jpg" style="width:100%">
+	  </div>
+  
+	  <div class="mySlides">
+		<div class="numbertext">3 / 3</div>
+		<img src="dog_puppy.png" style="width:100%">
+	  </div>
+  
+	  <!-- Next/previous controls -->
+	  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+	  <!-- Caption text -->
+	  <div class="caption-container">
+		<p id="caption"></p>
+	  </div>
+  
+	  <!-- Thumbnail image controls -->
+	  <div class="column">
+		<img class="demo" src="Golden_Timespan.jpg" onclick="currentSlide(1)" alt="From Young to Old">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="Golden-Retriever.jpg" onclick="currentSlide(2)" alt="Goldens have really mild temperaments">
+	  </div>
+  
+	  <div class="column">
+		<img class="demo" src="dog_puppy.png" onclick="currentSlide(3)" alt="They are the best puppies">
+	  </div>
+
+		</div>
+ 		</div>
+		<!-- End Photo Container 3-->
+				
+		<!--Video-->
+		<section>
+		<div id= "video">
+			<div>
+				<h1>Video</h1>
+				<h2>All about Goldens</h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kI4EbABtJQ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		</section>
+		<!-- End Video -->
+		
+		<!-- Contact -->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Contact info<h1>
+					<form action="" method="get">
+						First name: <input type="text" name= "First_Name"><br>
+						Last name: <input type="text" name= "Last_Name"><br>
+						Email: <input type="text" name= "E-Mail"><br>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- End Contact -->
+	</body>	
+		<!-- Footer -->
+		<footer>
+			<p>Yay! Golden Retrievers</p>
+			<p><a href="mailto:cheese@curd.com">Cheesecurds LLC</a></p>
+		</footer>
+		<!-- End Footer -->
+	</html>
+		
+			
+				
+				
